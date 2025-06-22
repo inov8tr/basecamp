@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Linting
+
+Run ESLint via:
+
+```bash
+npm run lint
+```
+
+## Build and start in production
+
+To create an optimized production build run:
+
+```bash
+npm run build
+```
+
+Then start the server with:
+
+```bash
+npm start
+```
+
+This project requires Node.js ^18.18.0, ^19.8.0 or >= 20.0.0 as specified by Next.js.
+
