@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="relative w-full h-[90vh] flex items-center justify-center text-center text-basecamp-cream">
       {/* Background Image */}
       <Image
-        src="/images/hero-boise-sunset.png"
+        src="/images/hero-boise-sunset.webp"
         alt="Boise skyline at sunset"
         fill
         className="object-cover object-center z-0"

@@ -10,7 +10,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/images/basecamp-logo.png"
+            src="/images/basecamp-logo.webp"
             alt="Basecamp Logo"
             width={48}
             height={48}
