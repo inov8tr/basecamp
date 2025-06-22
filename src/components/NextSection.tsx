@@ -11,7 +11,7 @@ export default function NextSection() {
         </p>
         <a
           href="/join"
-          className="inline-block bg-basecamp-charcoal text-basecamp-sand font-medium px-6 py-3 rounded-xl shadow hover:bg-black transition"
+          className="inline-block bg-basecamp-sand text-basecamp-charcoal border border-basecamp-charcoal font-medium px-6 py-3 rounded-xl shadow hover:bg-basecamp-cream transition"
         >
           Join the Brotherhood
         </a>
