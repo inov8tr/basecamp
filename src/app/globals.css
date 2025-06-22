@@ -1,8 +1,12 @@
 @import "tailwindcss";
+@import "@fontsource/geist/latin.css";
+@import "@fontsource/geist-mono/latin.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-geist-sans: "Geist", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
 }
 
 @theme inline {
@@ -22,5 +26,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
