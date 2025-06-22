@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         basecamp: {
-          sand: '#f3e9d4',
+          sand: '#f9f4eb',        // lighter and closer to your design
           cream: '#fdf4e3',
           charcoal: '#2e2e2e',
           pine: '#275f43',
@@ -20,12 +20,9 @@ const config: Config = {
           twilight: '#2f3c53',
           clay: '#ba5c3d',
         },
-        gradient: {
-          sunset: ['#f26932', '#5e316f'],
-        },
       },
       fontFamily: {
-        base: ['"Inter"', 'sans-serif'], // or use a slab serif like 'Roboto Slab'
+        base: ['"Inter"', 'sans-serif'],
         heading: ['"Oswald"', 'sans-serif'],
       },
       backgroundImage: {
@@ -39,4 +36,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

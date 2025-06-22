@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Basecamp",
@@ -13,8 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-basecamp-sand text-basecamp-charcoal font-sans antialiased">
-        {children}
+      <body className="bg-basecamp-sand text-basecamp-charcoal font-sans antialiased flex flex-col min-h-screen">
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
