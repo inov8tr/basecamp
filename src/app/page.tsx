@@ -8,8 +8,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
 
-      {/* Bold Divider */}
-      <div className="w-full h-4 bg-basecamp-charcoal" />
+      {/* Thin Divider */}
+      <div className="w-full border-t border-basecamp-charcoal" />
 
       {/* Lighter Follow-up Section */}
       <NextSection />
