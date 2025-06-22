@@ -17,7 +17,7 @@ export default function HeroSection() {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-10" />
+      <div className="absolute inset-0 bg-black/60 z-10" />
 
       {/* Gradient Fade to Sand */}
       <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-b from-transparent to-basecamp-sand z-20 pointer-events-none" />
