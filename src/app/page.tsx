@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import NextSection from "@/components/NextSection";
 
 export default function Home() {
   return (
@@ -11,23 +12,7 @@ export default function Home() {
       <div className="w-full h-4 bg-basecamp-charcoal" />
 
       {/* Lighter Follow-up Section */}
-      <section className="bg-basecamp-sand text-basecamp-charcoal py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">
-            Find your footing. Find your brothers.
-          </h2>
-          <p className="text-lg leading-relaxed mb-8">
-            A group for Christian men who want to grow in faith, build real friendships,
-            and prepare for what life demands.
-          </p>
-          <a
-            href="/join"
-            className="inline-block bg-basecamp-charcoal text-basecamp-sand font-medium px-6 py-3 rounded-xl shadow hover:bg-black transition"
-          >
-            Join the Brotherhood
-          </a>
-        </div>
-      </section>
+      <NextSection />
     </main>
   );
 }
